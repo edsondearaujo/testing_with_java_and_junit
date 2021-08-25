@@ -1,8 +1,7 @@
 package negocio;
 
 /**
- * Classe {@link Cliente} que representa um cliente real do banco.
- * @author Gustavo Farias
+ * Classe que representa um cliente real do banco.
  */
 public class Cliente {
 

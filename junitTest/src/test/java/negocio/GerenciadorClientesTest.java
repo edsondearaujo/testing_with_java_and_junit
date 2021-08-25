@@ -28,7 +28,7 @@ public class GerenciadorClientesTest {
 		
 		// Verificação por ID e email
 		assertThat(cliente.getId(), is(1)); 
-		assertThat(cliente.getEmail(), is("gugafarias@gmail.com"));
+		assertThat(cliente.getEmail(), is("marcont@gmail.com"));
 		
 	}
 

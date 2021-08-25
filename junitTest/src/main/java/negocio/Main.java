@@ -131,7 +131,7 @@ public class Main {
 	 */
 	private static void inicializaSistemaBancario() {
 		// criando lista vazia de contas e clientes
-		List<ContaCorrente> contasDoBanco = new ArrayList<>();
+		List<ContaCorrente> contasDoBanco = new ArrayList<ContaCorrente>();
 		List<Cliente> clientesDoBanco = new ArrayList<>();
 		
 		// criando e inserindo duas contas na lista de contas correntes do banco
@@ -141,8 +141,8 @@ public class Main {
 		contasDoBanco.add(conta02);
 		
 		// criando dois clientes e associando as contas criadas acima a eles
-		Cliente cliente01 = new Cliente(1, "Gustavo Farias", 31, "gugafarias@gmail.com", conta01.getId(), true);
-		Cliente cliente02 = new Cliente(2, "Felipe Augusto", 34, "felipeaugusto@gmail.com", conta02.getId(), true);
+		Cliente cliente01 = new Cliente(1, "Zé de Deus", 28, "marcont@gmail.com",conta01.getId(), true);
+		Cliente cliente02 = new Cliente(2, "Maria de Fátima", 35, "edcomunica@gmail.com", conta02.getId(), true);
 		// inserindo os clientes criados na lista de clientes do banco
 		clientesDoBanco.add(cliente01);
 		clientesDoBanco.add(cliente02);
